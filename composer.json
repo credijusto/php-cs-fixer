@@ -1,0 +1,12 @@
+{
+    "name": "credijusto/php-cs-fixer",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Credijusto\\PhpCsFixer\\": "src"
+        }
+    },
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.0"
+    }
+}
