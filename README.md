@@ -8,9 +8,23 @@ This project adds default rules to [php-cs-fixer](https://github.com/FriendsOfPH
 - **ordered_imports**: true
 
 ## Installation
+Add this repository to `composer.json`:
 
 ```
-composer require --dev credijusto/php-cs-fixer
+...
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/credijusto/php-cs-fixer"
+    }
+],
+...
+```
+
+Then install it:
+
+```
+composer require --dev credijusto/php-cs-fixer=dev-master
 ```
 
 ## Configuration
