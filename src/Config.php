@@ -14,6 +14,8 @@ class Config extends \PhpCsFixer\Config
             'array_syntax' => ['syntax' => 'short'],
             'concat_space' => ['spacing' => 'one'],
             'ordered_imports' => true,
+            'phpdoc_order' => true,
+            'phpdoc_align' => false,
         ]);
     }
 }
