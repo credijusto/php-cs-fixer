@@ -6,6 +6,8 @@ This project adds default rules to [php-cs-fixer](https://github.com/FriendsOfPH
 - **array_syntax**: syntax => short
 - **concat_space**: spacing => one
 - **ordered_imports**: true
+- **phpdoc_order**: true
+- **phpdoc_align**: false
 
 ## Installation
 Add this repository to `composer.json`:
