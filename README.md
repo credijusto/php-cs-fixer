@@ -8,6 +8,7 @@ This project adds default rules to [php-cs-fixer](https://github.com/FriendsOfPH
 - **ordered_imports**: true
 - **phpdoc_order**: true
 - **phpdoc_align**: false
+- **yoda_style**: false
 
 ## Installation
 Add this repository to `composer.json`:
