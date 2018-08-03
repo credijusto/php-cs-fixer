@@ -49,3 +49,22 @@ return Credijusto\PhpCsFixer\Config::create()
 ```
 vendor/bin/php-cs-fixer fix
 ```
+
+## Resolving link issue on aurum and client-portal
+
+```
+
+```
+
+* Go to [Settings](https://github.com/settings/profile) -> [Developer settings](https://github.com/settings/developers) -> [Personal access tokens](https://github.com/settings/tokens) -> [Generate new token](https://github.com/settings/tokens/new)
+* Add a name for the token
+* Add all repo permissions
+* Click on `Generate token`
+* Copy your token
+
+### On terminal
+
+Run the command
+```
+composer config -g github-oauth.github.com your_token_from_da_jel
+```
